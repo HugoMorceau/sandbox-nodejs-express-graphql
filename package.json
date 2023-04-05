@@ -1,0 +1,27 @@
+{
+  "name": "sandbox-nodejs-express-graphql",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HugoMorceau/sandbox-nodejs-express-graphql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HugoMorceau/sandbox-nodejs-express-graphql/issues"
+  },
+  "homepage": "https://github.com/HugoMorceau/sandbox-nodejs-express-graphql#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
